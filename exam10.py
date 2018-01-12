@@ -1,0 +1,2 @@
+help(int)
+help(str)
