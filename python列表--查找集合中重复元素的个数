@@ -1,0 +1,4 @@
+mylist = [1,2,2,2,2,3,3,3,4,4,4,4]#python列表--查找集合中重复元素的个数
+myset = set(mylist)
+for item in myset:
+    print("the %d has found %d" %(item,mylist.count(item)))
