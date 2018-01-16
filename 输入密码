@@ -1,0 +1,11 @@
+a = input('введите пароль：')
+for i in range(len(a)):
+    if i == 6:
+        print('Привет!')
+    elif i != 6:
+        print('неправильно.еще раз')
+        n = input('введите пароль：')
+        for f in range(len(a)):
+            if f == 6:
+                print('Привет!')
+        break
