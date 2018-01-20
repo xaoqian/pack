@@ -1,0 +1,10 @@
+m = int(input())
+print('1 1',end = '')
+pred = 1
+predpred= 1
+while pred + predpred <=m:
+     ocher = pred +predpred
+     print(ocher, end = '')
+     pred = pred
+     pred = ocher
+     
