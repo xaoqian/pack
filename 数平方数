@@ -1,0 +1,22 @@
+import math
+n = int(input())
+for k in range(1,int(math.sqrt(n))+1):
+    print(k)
+
+
+a = int(input())
+i = 1
+while i * i <= a:
+    print(i * i)
+    i = i + 1
+
+import math
+b = int(input())
+for c in range(1,int(math.sqrt(b))+1):
+    print(b * b)
+
+
+x = 1
+while x * x <= v:
+    print(x * x)
+    x = x + 1
