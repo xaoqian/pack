@@ -1,0 +1,8 @@
+from random import randint
+otvet = int(input('чет (введите 2) или нечет (введите 1)?'))
+n_comp = randint(1,2)
+print('число компьютер : ',n_comp)
+if otvet == n_comp:
+    print('выиграли')
+else:
+    print('проиграли')
