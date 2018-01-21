@@ -1,0 +1,8 @@
+
+for n in range(5):
+    b = 0
+    for a in range(n):
+        b = b + 1
+
+        print(b, end=' ')
+    print()
