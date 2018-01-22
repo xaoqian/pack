@@ -1,2 +1,0 @@
-help(int)
-help(str)
