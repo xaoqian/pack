@@ -1,0 +1,2 @@
+a = list('hrkdjjh')
+print(a)
