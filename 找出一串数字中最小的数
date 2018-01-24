@@ -1,0 +1,9 @@
+n = int(input())
+min = 9
+while n > 0:
+    posl = n % 10
+    if posl < min:
+        min = posl
+    n = n // 10
+print(min)
+
