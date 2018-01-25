@@ -1,0 +1,7 @@
+import queue
+q = queue.Queue()
+print(q.empty())
+q.put('a')
+q.put('b')
+print(q.get())
+print(q.qsize())
