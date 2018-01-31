@@ -1,6 +1,13 @@
+列表解析 [expr for iter_var in iterable if cond_expr]
+生成器表达式 (expr for iter_var in iterable if cond_expr)
+
 from random import randint
 data = [randint(-10,10) for x in range(10)]
 print(data)
 
 list = [item for item in data if item > 0]  #条件筛选
 print(list)
+
+
+list1 = (item for item in data if item > 0)
+print(list1)
