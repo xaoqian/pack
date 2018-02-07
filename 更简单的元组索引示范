@@ -1,12 +1,6 @@
-
-
-
 from collections import namedtuple
 student = namedtuple('student',['name','age','sex','email'])
 s = student('jim',16,'male','www.com')
+s1 = student(name='jim',age =16,sex='male',email='www.com')
 print(s)
-
-
-
-
-student(name='jim', age=16, sex='male', email='www.com')
+print(s1)#s s1是两种不同的方法
