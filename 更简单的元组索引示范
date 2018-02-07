@@ -1,0 +1,12 @@
+
+
+
+from collections import namedtuple
+student = namedtuple('student',['name','age','sex','email'])
+s = student('jim',16,'male','www.com')
+print(s)
+
+
+
+
+student(name='jim', age=16, sex='male', email='www.com')
